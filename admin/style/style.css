@@ -1,0 +1,84 @@
+body{
+	width: 96%;
+	margin: auto;
+	font-size: 18px;
+	font-family: tahoma;
+}
+a{
+	text-decoration: none; 
+	color: blue;
+}
+label{
+	font-weight: bold;
+}
+select{
+	width: 180px;
+	height: 36px;
+	border-radius: 10px;
+	border: 0.1px solid silver;
+}
+input[type="text"], input[type="password"]{
+	width: 180px;
+	height: 36px;
+	border-radius: 10px;
+	border: 0.1px solid silver;
+	padding-left: 10px;
+}
+input[type="submit"]{
+	width: 100px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	background-color: #2F62D5;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+}
+.navbar{
+	width: 800px;
+	height: 40px;
+	margin: auto;
+	background-color: #2A4773;
+}
+.navbar ul{
+	list-style: none;
+}
+.navbar ul li{
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	background-color: #2A4773;
+}
+.navbar ul li a{
+	display: block;
+	padding: 0 20px;
+	color: white;
+	text-decoration: none;
+}
+.navbar ul li a:hover{
+	background-color: #4972B7;
+}
+.content{
+	width: 960px;
+	height: auto;
+	padding-top: 60px;
+	border: 0.5px solid silver;
+	margin: auto;
+	clear: both;
+}
+.content table{
+	width: 80%; 
+	margin: auto;
+	border: silver 0.1px solid; 
+	border-collapse: collapse;
+}
+.content table .title{
+	font-weight: bold;
+}
+.content table td{
+	padding: 5px;
+	border: 0.1px silver solid;
+}
+.content table .right{
+	text-align: right;
+}
